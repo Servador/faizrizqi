@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio</title>
+  <meta name="description" content="Portofolio FaizRizqi" />
+  <link rel="canonical" href="/test/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Portofolio" />
+  <meta property="og:description" content="Portofolio FaizRizqi" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a href="#hero" class="brand">Faiz Rizqi</a>
+      <ul class="nav__links">
+         <li><a href="#about">Tentang</a></li>
+        <li><a href="#projects">Proyek</a></li>
+      <li><a href="#skills">Keahlian</a></li>
+      <li><a href="#testimonials">Testimoni</a></li>
+      <li><a href="#certificates">Sertifikasi</a></li>
+    <li><a href="#contact">Kontak</a></li></ul>
+      <a class="btn btn--primary" href="https://wa.me/6282129837460" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i>Hubungi</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero__inner" data-aos="fade-up">
+        <p class="pill">Indonesia • Tersedia untuk proyek baru</p>
+        <h1 class="hero__title">Halo, saya <span class="gradient-text">Faiz Rizqi</span></h1>
+        <p class="hero__subtitle">Membangun antarmuka modern, cepat, dan mudah dirawat untuk web.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#projects">Lihat Proyek</a>
+          <a class="btn btn--primary" href="#contact">Contact</a>
+          <a class="btn btn--primary" href="assets/CV-FaizRizqi.pdf" download>
+    <i class="fa-solid fa-download"></i> Download CV
+  </a>
+        </div>
+      </div>
+    </section>
+
+<section id="about" class="section">
+  <div class="container narrow about__grid" data-aos="fade-up">
+    <div class="about__text">
+      <h2 class="section__title">Tentang Saya</h2>
+      <p class="muted">
+        Sejak awal terjun di dunia pengembangan web, saya selalu percaya bahwa kode yang rapi dan desain yang berpihak pada pengguna adalah fondasi dari produk digital yang sukses.
+        Sebagai Frontend Developer, saya fokus membangun pengalaman yang mulus dari design system yang konsisten, aksesibilitas yang inklusif, hingga performa yang cepat di semua perangkat.
+        Bagi saya, setiap baris kode bukan sekadar instruksi untuk mesin, tapi juga jembatan antara ide dan pengalaman pengguna.
+      </p>
+    </div>
+    <div class="about__image">
+      <img src="image.lnk/imagebaru.png.png" alt="Foto Faiz Rizqi" />
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section__title">Proyek Unggulan</h2>
+    <p class="section__desc">Beberapa karya terbaru yang saya kerjakan.</p>
+
+    <div class="grid">
+      <!-- ============ CARD 1: Dashboard Analytics ============ -->
+      <div class="card" data-aos="fade-up">
+        <div class="carousel" data-carousel aria-label="Galeri Dashboard Analytics">
+          <div class="carousel__track" data-track>
+            <!-- Ganti src dengan gambar kamu -->
+            <img src="image.lnk/a1.png.png" alt="Dashboard: Ringkasan metrik" class="carousel__slide is-active" loading="lazy">
+            <img src="image.lnk/a2.png.png" alt="Dashboard: Grafik performa" class="carousel__slide" loading="lazy">
+            <img src="image.lnk/a3.png.png" alt="Dashboard: Tabel real-time" class="carousel__slide" loading="lazy">
+            <img src="image.lnk/a4.png.png" alt="Dashboard: Tabel real-time" class="carousel__slide" loading="lazy">
+          </div>
+
+          <div class="carousel__edge left" data-edge="left" aria-hidden="true"></div>
+          <div class="carousel__edge right" data-edge="right" aria-hidden="true"></div>
+
+          <!-- Tombol navigasi (SVG supaya benar2 center) -->
+          <button class="carousel__btn prev" data-prev aria-label="Sebelumnya">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="carousel__btn next" data-next aria-label="Berikutnya">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+
+          <div class="carousel__dots" data-dots role="tablist" aria-label="Navigasi slide"></div>
+          <div class="carousel__progress" aria-hidden="true" data-progress></div>
+        </div>
+
+        <h3 class="card__title-wrap"> <span class="card__title">Jasa Service</span>
+        <a href="https://link-demo-anda.com" target="_blank" class="live-demo-btn">Live Demo</a></h3>
+        <p class="card__desc">Halaman promosi jasa dengan fokus konversi: jelaskan manfaat, tunjukkan hasil kerja, dan ajak pengguna menghubungi.</p>
+        <div class="tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span>
+        </div>
+      </div>
+
+      <!-- ============ CARD 2: Landing Page Produk ============ -->
+      <div class="card" data-aos="fade-up">
+        <div class="carousel" data-carousel aria-label="Galeri Landing Page Produk">
+          <div class="carousel__track" data-track>
+            <!-- Ganti src dengan gambar kamu -->
+            <img src="image.lnk/g1.png.png" alt="Landing: Hero section" class="carousel__slide is-active" loading="lazy">
+            <img src="image.lnk/g2.png.png" alt="Landing: Fitur produk" class="carousel__slide" loading="lazy">
+            <img src="image.lnk/g3.png.png" alt="Landing: Testimoni & CTA" class="carousel__slide" loading="lazy">
+          </div>
+
+          <div class="carousel__edge left" data-edge="left" aria-hidden="true"></div>
+          <div class="carousel__edge right" data-edge="right" aria-hidden="true"></div>
+
+          <button class="carousel__btn prev" data-prev aria-label="Sebelumnya">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="carousel__btn next" data-next aria-label="Berikutnya">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+
+          <div class="carousel__dots" data-dots role="tablist" aria-label="Navigasi slide"></div>
+          <div class="carousel__progress" aria-hidden="true" data-progress></div>
+        </div>
+
+        <h3 class="card__title-wrap"> <span class="card__title">Toko Online</span>
+        <a href="https://link-demo-anda.com" target="_blank" class="live-demo-btn">Live Demo</a></h3>
+        <p class="card__desc">E-commerce/storefront: banyak halaman + fitur akun, keranjang, checkout.</p>
+        <div class="tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span><span class="tag">TypeScript (TS)</span><span class="tag">JSON</span>
+        </div>
+      </div>
+
+      <!-- ============ CARD 3: Komponen UI Reusable ============ -->
+      <div class="card" data-aos="fade-up">
+        <div class="carousel" data-carousel aria-label="Galeri Komponen UI Reusable">
+          <div class="carousel__track" data-track>
+            <!-- Ganti src dengan gambar kamu -->
+            <img src="image.lnk/h1.png.png" alt="UI Kit: Button states" class="carousel__slide is-active" loading="lazy">
+            <img src="image.lnk/h2.png.png" alt="UI Kit: Form elements" class="carousel__slide" loading="lazy">
+            <img src="image.lnk/h3.png.png" alt="UI Kit: Cards & modals" class="carousel__slide" loading="lazy">
+          </div>
+
+          <div class="carousel__edge left" data-edge="left" aria-hidden="true"></div>
+          <div class="carousel__edge right" data-edge="right" aria-hidden="true"></div>
+
+          <button class="carousel__btn prev" data-prev aria-label="Sebelumnya">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="carousel__btn next" data-next aria-label="Berikutnya">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+
+          <div class="carousel__dots" data-dots role="tablist" aria-label="Navigasi slide"></div>
+          <div class="carousel__progress" aria-hidden="true" data-progress></div>
+        </div>
+
+        <h3 class="card__title-wrap"><span class="card__title">Jasa Design Website</span>
+        <a href="https://servadorcorp.vercel.app/" target="_blank" class="live-demo-btn">Live Demo</a></h3>
+        <p class="card__desc">Landing page penjualan paket website dengan tampilan modern, responsif, dan ramah SEO. Dilengkapi section fitur, portfolio, dan harga.</p>
+        <div class="tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LIGHTBOX global -->
+<div class="lightbox" data-lightbox-root aria-hidden="true" role="dialog" aria-modal="true" aria-label="Pratinjau gambar">
+  <button class="lightbox__close" data-lb-close aria-label="Tutup">✕</button>
+  <button class="lightbox__nav prev" data-lb-prev aria-label="Sebelumnya">‹</button>
+  <img class="lightbox__img" data-lb-img alt="">
+  <div class="lightbox__caption" data-lb-cap></div>
+  <button class="lightbox__nav next" data-lb-next aria-label="Berikutnya">›</button>
+</div>
+
+<style>
+  /* -------- Grid & Card -------- */
+  .grid { display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .card {
+    display: block; padding: 16px; border: 1px solid rgba(0,0,0,.08);
+    border-radius: 14px; background: #fff; box-shadow: 0 6px 24px rgba(0,0,0,.04);
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(0,0,0,.06); }
+  .card .tags { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag { font-size: 12px; padding: 4px 8px; border-radius: 999px; background: #f3f4f6; }
+
+  /* ==================== Carousel ==================== */
+  .carousel { position: relative; border-radius: 16px; overflow: hidden; background: #0f172a10; user-select: none; margin-bottom: 12px; }
+  .carousel__track { display: flex; transition: transform 340ms ease; touch-action: pan-y; will-change: transform; }
+  .carousel__slide { flex: 0 0 100%; width: 100%; aspect-ratio: 16/9; object-fit: cover; background: #e5e7eb; display: block; }
+
+  /* Tombol bulat tengah — benar2 center */
+  .carousel__btn {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    width: 46px; height: 46px; border-radius: 999px; border: 0;
+    background: #ffffffcc; backdrop-filter: blur(6px);
+    display: inline-flex; align-items: center; justify-content: center;
+    line-height: 0; cursor: pointer; box-shadow: 0 6px 18px rgba(0,0,0,.15); z-index: 3;
+  }
+  .carousel__btn svg { width: 22px; height: 22px; }
+  /* Optical alignment sedikit supaya terlihat pas */
+  .carousel__btn.prev svg { transform: translateX(-.5px); }
+  .carousel__btn.next svg { transform: translateX(.5px); }
+
+  .carousel__btn:hover { background: #fff; }
+  .carousel__btn:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }
+  .carousel__btn.prev { left: 12px; }
+  .carousel__btn.next { right: 12px; }
+
+  /* Zona geser samping */
+  .carousel__edge { position: absolute; top: 0; bottom: 0; width: clamp(48px, 16%, 160px); cursor: grab; z-index: 2; }
+  .carousel__edge.left{ left:0; } .carousel__edge.right{ right:0; }
+  .carousel__edge:active { cursor: grabbing; }
+
+  /* Dots */
+  .carousel__dots { position: absolute; inset-inline: 0; bottom: 10px; display: flex; justify-content: center; gap: 6px; z-index: 3; }
+  .carousel__dots button {
+    width: 8px; height: 8px; border-radius: 999px; border: 0; background: #ffffff80; cursor: pointer;
+    transition: width .2s ease, background .2s ease;
+  }
+  .carousel__dots button[aria-selected="true"] { background: #ffffff; width: 18px; }
+
+  /* Progress bar */
+  .carousel__progress { position: absolute; left: 10px; right: 10px; bottom: 0; height: 3px; display: flex; gap: 6px; z-index: 2; margin-bottom: 2px; }
+  .carousel__progress span { flex: 1 1 0; background: rgba(255,255,255,.35); border-radius: 999px; overflow: hidden; }
+  .carousel__progress b { display: block; width: 0%; height: 100%; background: #fff; transition: width linear; }
+
+  /* ==================== Lightbox ==================== */
+  .lightbox { position: fixed; inset: 0; display: none; align-items: center; justify-content: center; background: rgba(0,0,0,.8); z-index: 999; }
+  .lightbox.is-open { display: flex; }
+  .lightbox__img { max-width: min(92vw, 1400px); max-height: 80vh; object-fit: contain; border-radius: 10px; box-shadow: 0 24px 80px rgba(0,0,0,.5); }
+  .lightbox__caption { position: absolute; left: 50%; bottom: 24px; transform: translateX(-50%); color: #fff; font-size: 14px; text-align: center; opacity: .9; padding: 6px 10px; border-radius: 999px; background: rgba(0,0,0,.35); backdrop-filter: blur(4px); max-width: 90vw; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+  .lightbox__close,
+  .lightbox__nav { border: 0; width: 48px; height: 48px; border-radius: 999px; cursor: pointer; background: rgba(255,255,255,.9); font-size: 24px; display: grid; place-items: center; }
+  .lightbox__close { position: absolute; top: 14px; right: 14px; font-size: 18px; }
+  .lightbox__nav { position: absolute; top: 50%; transform: translateY(-50%); }
+  .lightbox__nav.prev { left: 16px; } .lightbox__nav.next { right: 16px; }
+  .lightbox__nav:hover, .lightbox__close:hover { background: #fff; }
+  .lightbox__nav:focus-visible, .lightbox__close:focus-visible { outline: 2px solid #60a5fa; outline-offset: 2px; }
+  body.lb-open { overflow: hidden; }
+</style>
+
+<script>
+  // ====== Lightbox global: 1x di halaman, bekerja untuk semua carousel ======
+  const LB = (() => {
+    const root = document.querySelector('[data-lightbox-root]');
+    const img  = root.querySelector('[data-lb-img]');
+    const cap  = root.querySelector('[data-lb-cap]');
+    const btnPrev = root.querySelector('[data-lb-prev]');
+    const btnNext = root.querySelector('[data-lb-next]');
+    const btnClose= root.querySelector('[data-lb-close]');
+    let active = null; // { api, index }
+
+    function sync() {
+      if (!active) return;
+      const slide = active.api.slides[active.api.index];
+      img.src = slide.src; img.alt = slide.alt || '';
+      cap.textContent = slide.alt || '';
+    }
+    function open(api, i) {
+      active = { api };
+      api.pauseAuto();
+      api.goTo(i);
+      sync();
+      root.classList.add('is-open');
+      root.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('lb-open');
+      btnClose.focus();
+    }
+    function close() {
+      if (!active) return;
+      root.classList.remove('is-open');
+      root.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('lb-open');
+      active.api.startAuto();
+      active = null;
+    }
+    function nav(delta) {
+      if (!active) return;
+      if (delta < 0) active.api.prev(); else active.api.next();
+      sync();
+    }
+
+    btnPrev.addEventListener('click', () => nav(-1));
+    btnNext.addEventListener('click', () => nav(1));
+    btnClose.addEventListener('click', close);
+    root.addEventListener('click', (e) => { if (e.target === root) close(); });
+    window.addEventListener('keydown', (e) => {
+      if (!root.classList.contains('is-open')) return;
+      if (e.key === 'Escape') close();
+      if (e.key === 'ArrowLeft') nav(-1);
+      if (e.key === 'ArrowRight') nav(1);
+    });
+
+    return { open, close };
+  })();
+
+  // ====== Carousel init untuk SEMUA [data-carousel] ======
+  document.querySelectorAll('[data-carousel]').forEach(initCarousel);
+
+  function initCarousel(root) {
+    const track   = root.querySelector('[data-track]');
+    const slides  = Array.from(track.children);
+    const btnPrev = root.querySelector('[data-prev]');
+    const btnNext = root.querySelector('[data-next]');
+    const dotsWrap= root.querySelector('[data-dots]');
+    const edgeL   = root.querySelector('[data-edge="left"]');
+    const edgeR   = root.querySelector('[data-edge="right"]');
+    const progBox = root.querySelector('[data-progress]');
+
+    let index = 0;
+    let isDragging = false, startX = 0, currentX = 0, startTranslate = 0;
+
+    // ==== Auto-slide & progress ====
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const autoDelay = 5000; // 5 detik
+    let autoTimer = null, autoRunning = false;
+    const progressBars = [];
+
+    // Dots
+    slides.forEach((_, i) => {
+      const dot = document.createElement('button');
+      dot.type = 'button';
+      dot.setAttribute('role', 'tab');
+      dot.setAttribute('aria-label', `Slide ${i + 1}`);
+      dot.addEventListener('click', () => { goTo(i); restartAuto(); });
+      dotsWrap.appendChild(dot);
+    });
+
+    // Progress bars
+    slides.forEach(() => {
+      const span = document.createElement('span');
+      const bar  = document.createElement('b');
+      span.appendChild(bar); progBox.appendChild(span);
+      progressBars.push(bar);
+    });
+
+    function update() {
+      dotsWrap.querySelectorAll('button').forEach((d, i) => d.setAttribute('aria-selected', i === index ? 'true' : 'false'));
+      slides.forEach((s, i) => s.classList.toggle('is-active', i === index));
+      track.style.transform = `translateX(-${index * 100}%)`;
+      btnPrev.disabled = index === 0;
+      btnNext.disabled = index === slides.length - 1;
+
+      // Progress state
+      progressBars.forEach((b, i) => {
+        if (i < index) { b.style.transition = 'none'; b.style.width = '100%'; }
+        else if (i > index) { b.style.transition = 'none'; b.style.width = '0%'; }
+      });
+      void progressBars[index]?.offsetWidth; // reflow
+      progressBars[index]?.style.setProperty('transition', `width ${autoDelay}ms linear`);
+      progressBars[index]?.style.setProperty('width', autoRunning ? '100%' : '0%');
+    }
+
+    function goTo(i) { index = Math.max(0, Math.min(slides.length - 1, i)); track.style.transition = ''; update(); }
+    function next()  { goTo(index + 1); }
+    function prev()  { goTo(index - 1); }
+
+    btnNext.addEventListener('click', () => { next(); restartAuto(); });
+    btnPrev.addEventListener('click', () => { prev(); restartAuto(); });
+
+    // Keyboard
+    root.tabIndex = 0;
+    root.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') { next(); restartAuto(); }
+      if (e.key === 'ArrowLeft')  { prev(); restartAuto(); }
+    });
+
+    // Drag / Swipe
+    const startDrag = (clientX) => {
+      isDragging = true; startX = clientX; startTranslate = -index * root.clientWidth;
+      track.style.transition = 'none'; pauseAuto();
+    };
+    const moveDrag = (clientX) => { if (!isDragging) return; currentX = clientX; const d = currentX - startX; track.style.transform = `translateX(${startTranslate + d}px)`; };
+    const endDrag = () => {
+      if (!isDragging) return; isDragging = false; track.style.transition = '';
+      const d = currentX - startX; const threshold = root.clientWidth * 0.18;
+      if (d > threshold) prev(); else if (d < -threshold) next(); else update();
+      restartAuto();
+    };
+
+    const down = (e) => startDrag('touches' in e ? e.touches[0].clientX : e.clientX);
+    const move = (e) => moveDrag('touches' in e ? e.touches[0].clientX : e.clientX);
+    const up   = () => endDrag();
+
+    [track, edgeL, edgeR].forEach(el => {
+      el.addEventListener('mousedown', down);
+      el.addEventListener('touchstart', down, {passive: true});
+    });
+    window.addEventListener('mousemove', move);
+    window.addEventListener('touchmove', move, {passive: true});
+    window.addEventListener('mouseup', up);
+    window.addEventListener('touchend', up);
+
+    // Auto
+    function startAuto() {
+      if (prefersReduced || autoTimer) return;
+      autoRunning = true;
+      progressBars[index]?.style.setProperty('transition', `width ${autoDelay}ms linear`);
+      progressBars[index]?.style.setProperty('width', '100%');
+      autoTimer = setInterval(() => {
+        if (index === slides.length - 1) {
+          progressBars.forEach(b => { b.style.transition = 'none'; b.style.width = '0%'; });
+          void progBox.offsetWidth;
+          index = -1;
+        }
+        next();
+      }, autoDelay);
+    }
+    function pauseAuto() {
+      if (!autoTimer) return;
+      clearInterval(autoTimer); autoTimer = null; autoRunning = false;
+      const bar = progressBars[index]; if (bar) { const w = getComputedStyle(bar).width; bar.style.transition = 'none'; bar.style.width = w; }
+    }
+    function restartAuto() { pauseAuto(); const bar = progressBars[index]; if (bar) { bar.style.width = '0%'; void bar.offsetWidth; } startAuto(); }
+
+    root.addEventListener('mouseenter', pauseAuto);
+    root.addEventListener('mouseleave', startAuto);
+    root.addEventListener('focusin', pauseAuto);
+    root.addEventListener('focusout', startAuto);
+    document.addEventListener('visibilitychange', () => { if (document.hidden) pauseAuto(); else startAuto(); });
+
+    // Lightbox trigger
+    slides.forEach((img, i) => {
+      img.style.cursor = 'zoom-in';
+      img.addEventListener('click', () => LB.open(api, i));
+      img.addEventListener('keypress', (e) => { if (e.key === 'Enter' || e.key === ' ') LB.open(api, i); });
+    });
+
+    // API untuk LB
+    const api = {
+      get slides() { return slides; },
+      get index() { return index; },
+      goTo, next, prev, pauseAuto, startAuto
+    };
+
+    // Init
+    update(); startAuto();
+  }
+</script>
+<!-- ====== Stats Section ====== -->
+    <section id="stats" class="section stats">
+      <div class="container" data-aos="fade-up">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <strong>10+</strong>
+            <span>Proyek Selesai</span>
+          </div>
+          <div class="stat-card">
+            <strong>3+</strong>
+            <span>Tahun Pengalaman</span>
+          </div>
+          <div class="stat-card">
+            <strong>100%</strong>
+            <span>Kepuasan Klien</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section">
+      <div class="container narrow" data-aos="fade-up">
+        <h2 class="section__title">Keahlian</h2>
+        <p class="section__desc">Teknologi dan tools yang saya gunakan sehari-hari.</p>
+        <div class="skills__tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript (ES6+)</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">React</span>
+          <span class="tag">Next.js</span>
+          <span class="tag">Tailwind CSS</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Git & GitHub</span>
+          <span class="tag">SEO Dasar</span>
+          <span class="tag">Aksesibilitas</span>
+          <span class="tag">UI/UX Basics</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section id="testimonials" class="section">
+      <div class="container" data-aos="fade-up">
+        <h2 class="section__title">Testimoni</h2>
+        <p class="section__desc">Pendapat klien setelah bekerja sama.</p>
+        <div class="testi__grid">
+          <div class="testi card card--glass">
+            <div class="testi__head">
+              <div class="avatar" aria-hidden="true">A</div>
+              <div>
+                <strong>Andi</strong>
+                <div class="stars" aria-label="Rating 5 dari 5">★★★★★</div>
+              </div>
+            </div>
+            <p>“Proses cepat, komunikasi lancar, hasilnya profesional. Website langsung menaikkan trust pelanggan.”</p>
+          </div>
+          <div class="testi card card--glass">
+            <div class="testi__head">
+              <div class="avatar" aria-hidden="true">S</div>
+              <div>
+                <strong>Sinta</strong>
+                <div class="stars" aria-label="Rating 5 dari 5">★★★★★</div>
+              </div>
+            </div>
+            <p>“Sangat responsif terhadap revisi. Struktur kodenya rapi, mudah dirawat.”</p>
+          </div>
+          <div class="testi card card--glass">
+            <div class="testi__head">
+              <div class="avatar" aria-hidden="true">R</div>
+              <div>
+                <strong>Rizal</strong>
+                <div class="stars" aria-label="Rating 5 dari 5">★★★★★</div>
+              </div>
+            </div>
+            <p>“Performanya kencang dan ramah SEO. Trafik organik naik signifikan.”</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== Certificates Section ====== -->
+    <section id="certificates" class="section certificates">
+      <div class="container narrow" data-aos="fade-up">
+        <h2 class="section__title">Sertifikasi</h2>
+        <ul class="req-list">
+          <li><i class="fa-solid fa-certificate"></i> Frontend Developer Certification – Dicoding Indonesia</li>
+          <li><i class="fa-solid fa-certificate"></i> JavaScript Algorithms and Data Structures – freeCodeCamp</li>
+        </ul>
+      </div>
+    </section>  
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="card card--glass">
+          <h2 class="section__title">Contact</h2>
+          <p class="muted">Tertarik ingin bekerja sama? Kirim email atau sapa lewat sosial media.</p>
+          <div class="actions">
+            <a class="btn btn--primary" href="mailto:email@contoh.com"><i class="fas fa-envelope"></i> Email</a>
+            <a class="btn btn--primary" href="https://www.instagram.com/faizrizqp" target="_blank" rel="noopener"><i class="fab fa-instagram"></i> instagram</a>
+            <a class="btn btn--primary" href="https://www.linkedin.com/in/faiz-rizqi-b8a466347/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a class="btn btn--primary" href="https://wa.me/6282129837460" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a href="https://wa.me/6282129837460" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p class="muted">© <span id="year"></span> • Portofolio FaizRizqi</p>
+      <a href="#hero" class="muted">Kembali ke atas</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({duration:800, once:true});</script>
+
+  <script>
+    // Counter up on view
+    const counters = document.querySelectorAll('.stat[data-count]');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const el = entry.target;
+        const target = +el.getAttribute('data-count');
+        let cur = 0;
+        const step = Math.max(1, Math.round(target / 60));
+        const tick = () => {
+          cur += step;
+          if (cur >= target) { el.textContent = target; io.unobserve(el); return; }
+          el.textContent = cur;
+          requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      });
+    }, { threshold: 0.4 });
+    counters.forEach(c => io.observe(c));
+  </script>
+
+</body>
+
+</html>
