@@ -428,3 +428,7 @@ body {
   .btn { width: 100%; }
   .hero__cta { width: 100%; }
 }
+
+/* Force override kalau masih ada inline style di index.html */
+.card { background: hsl(var(--bg)) !important; color: hsl(var(--fg)) !important; border-color: hsl(var(--border)) !important; }
+.tag { background: var(--tag-bg) !important; color: var(--tag-fg) !important; border: 1px solid var(--tag-border) !important; }
