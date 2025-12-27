@@ -18,6 +18,10 @@
   --container: 1100px;
   --shadow: 0 12px 30px -12px hsl(var(--brand) / 0.35);
   --shadow-soft: 0 8px 20px -12px hsl(220 20% 20% / 0.12);
+
+  --tag-bg: hsl(var(--fg) / 0.06);
+  --tag-fg: hsl(var(--fg));
+  --tag-border: hsl(var(--border));
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,7 +30,20 @@
     --fg: 0 0% 100%;
     --muted: 215 16% 75%;
     --border: 223 10% 20%;
+    --tag-bg: hsl(0 0% 100% / 0.14);   /* lebih gelap & aman */
+    --tag-fg: hsl(0 0% 100%);          /* putih solid */
+    --tag-border: hsl(0 0% 100% / 0.18);
   }
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: .25rem .55rem;
+  border-radius: 999px;
+  background: var(--tag-bg);
+  color: var(--tag-fg);
+  border: 1px solid var(--tag-border);
+  font-size: .75rem;
 }
 
 * { box-sizing: border-box; }
@@ -307,3 +324,23 @@ body {
 
 /* Small improvement to tags spacing */
 .tags { gap: .5rem; }
+
+.hero__title,
+.hero__subtitle,
+.hero .pill {
+  text-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+.hero__subtitle {
+  font-size: 1.05rem;
+  max-width: 42rem;
+}
+
+@media (max-width: 480px) {
+  .hero { padding: 84px 0 56px; }
+  .hero__title { font-size: 2.2rem; }
+  .hero__subtitle { font-size: 1rem; line-height: 1.7; }
+  .btn { width: 100%; justify-content: center; }
+  .hero__cta { width: 100%; }
+}
+
